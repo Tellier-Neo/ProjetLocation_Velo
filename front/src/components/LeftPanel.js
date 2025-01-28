@@ -1,12 +1,13 @@
 import React from "react";
 import "../styles/leftPanel.css";
 
-const LeftPanel = () => {
+const LeftPanel = ({ setCurrentSection }) => {
   return (
     <div className="left_panel">
-      <button id="disconnect">gerer les vélos </button>
-      <button id="disconnect">états des vélos </button>
-      <button id="disconnect">afficher la map </button>
+      <button onClick={() => setCurrentSection('gerer-velos')}>Gérer les vélos</button>
+      <button onClick={() => setCurrentSection('etat-velos')}>État des vélos</button>
+      <button onClick={() => setCurrentSection('map')}>Afficher la map</button>
+    
     </div>
   );
 };

@@ -1,17 +1,19 @@
 #map_container {
-    width: 80%;
-    height: 70%;
+    height: 100%; /* Prend toute la hauteur disponible */
+    width: 80%; /* Ajustez la largeur selon vos besoins */
+    display: flex;
+    flex-direction: column;
     background-color: #ffffff;
     box-sizing: border-box;
     box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
-    margin: 20px;
     padding: 20px;
     text-align: center;
+    margin: 0 auto; /* Centre le conteneur horizontalement */
 }
 
 #map {
     width: 100%;
-    height: 120%;
+    height: 100%;
     background-color: #e0e0e0;
     border: 1px solid #ccc;
     margin: 0 auto;

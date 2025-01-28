@@ -3,7 +3,7 @@ import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import '../styles/map.css';
 
-const Map = () => {
+const MapSection = () => {
   useEffect(() => {
     const mapContainer = document.getElementById('map');
     if (!mapContainer) return;
@@ -38,9 +38,9 @@ const Map = () => {
   return (
     <div id="map_container">
       <h3>Carte</h3>
-      <div id="map"></div>
+      <div id="map" style={{ height: '500px', width: '100%' }}></div>
     </div>
   );
 };
 
-export default Map;
+export default MapSection;
