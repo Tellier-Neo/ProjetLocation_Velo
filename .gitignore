@@ -14,3 +14,16 @@ LoraWanCode/.vs/LoraWanCode/v17/DocumentLayout.json
 LoraWanCode/src/arduino folders read me.txt
 LoraWanCode/.vs/LoraWanCode/v17/DocumentLayout.backup.json
 location/node_modules/
+front/node_modules
+front/.pnp
+front/.pnp.js
+front/coverage
+front/build
+front/.DS_Store
+front/.env.local
+front/.env.development.local
+front/.env.test.local
+front/.env.production.local
+front/npm-debug.log*
+front/yarn-debug.log*
+front/yarn-error.log*
